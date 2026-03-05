@@ -62,18 +62,6 @@ Regress-o-e--rvore-de-decis-o---TITANIC/
    - Curvas ROC
    - Recomendações
 
-## 🛠️ Tecnologias Utilizadas
-
-| Biblioteca | Versão | Uso |
-|------------|--------|-----|
-| **Python** | 3.x | Linguagem principal |
-| **Pandas** | - | Manipulação e análise de dados |
-| **NumPy** | - | Computações numéricas |
-| **Scikit-learn** | - | Machine Learning e modelagem |
-| **Matplotlib** | - | Visualização de dados |
-| **Seaborn** | - | Visualizações estatísticas avançadas |
-| **Jupyter Notebook** | - | Ambiente interativo |
-
 ## 📈 Dataset - Titanic
 
 **Fonte:** Kaggle / UCI Machine Learning Repository
@@ -109,8 +97,9 @@ Os modelos são avaliados usando:
 ## 🚀 Como Usar
 
 ### Pré-requisitos
+- Python 3.7+
+
 ```bash
-Python 3.7+
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 ```
 
@@ -118,48 +107,3 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 ```bash
 jupyter notebook titanic_analysis.ipynb
 ```
-
-Então execute as células na sequência recomendada para reproduzir toda a análise.
-
-## 📌 Principais Insights
-
-(Estes serão gerados após executar o notebook)
-
-- Fatores determinantes para sobrevivência
-- Distribuição demográfica dos sobreviventes
-- Performance comparativa dos modelos
-- Recomendações de qual modelo usar
-
-## 🔍 Resultados Esperados
-
-O projeto fornece:
-- ✅ Modelos treinados e avaliados
-- ✅ Comparação entre técnicas de ML
-- ✅ Visualizações explicativas
-- ✅ Recomendações baseadas em dados
-- ✅ Código comentado e documentado
-
-## 💡 Melhorias Futuras
-
-- [ ] Implementar Random Forest e Gradient Boosting
-- [ ] Otimizar hiperparâmetros com Grid Search
-- [ ] Validação cruzada (K-Fold)
-- [ ] Feature engineering avançado
-- [ ] Deploy do modelo em API
-- [ ] Análise de SHAP values
-
-## 📝 Autor
-
-**Desenvolvido por:** vrenzd
-
-## 📄 Licença
-
-Este projeto é de uso educacional e está disponível para fins de aprendizado.
-
-## 🤝 Contribuições
-
-Sugestões e melhorias são bem-vindas! Abra uma issue ou faça um pull request.
-
----
-
-**Última atualização:** 2026-03-05
